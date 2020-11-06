@@ -5,8 +5,8 @@
 	"require": {
 		"php": "^7.1 || ^8.0"
 	},
-	"conflict": {
-		"vimeo/psalm" : "*"
+	"replace": {
+		"vimeo/psalm" : "self.version"
 	},
 	"bin": ["psalm.phar"]
 }
