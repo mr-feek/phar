@@ -6,7 +6,7 @@
 		"php": "^7.1 || ^8.0"
 	},
 	"replace": {
-		"vimeo/psalm" : "self.version"
+		"vimeo/psalm" : "^4.0"
 	},
 	"bin": ["psalm.phar"]
 }
